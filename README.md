@@ -5,7 +5,7 @@
 </p>
 
 ---
-
+https://app.powerbi.com/groups/me/reports/cc762fc0-bbec-4c70-b213-3524121ac1d8/953933c5098e20d60538?experience=power-bi
 ## 🧠 Overview
 
 This project showcases how business intelligence tools can revolutionize supply chain management. Using Power BI, I analyzed performance metrics across orders, delivery timelines, regions, and customer segments to uncover **where delays happen and how they impact revenue**.
