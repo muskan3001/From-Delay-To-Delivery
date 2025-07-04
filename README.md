@@ -1,102 +1,112 @@
-# 🚚 From Delay to Delivery: Supply Chain Analytics Dashboard
+<h1 align="center">🚚📦 From Delay to Delivery: Supply Chain Analytics Dashboard 📈</h1>
 
-An interactive Power BI dashboard that uncovers supply chain inefficiencies—from delayed shipments to lost profits—and transforms them into data-driven opportunities.
+---
+
+## 🧠 Overview
+
+This project showcases how business intelligence tools can revolutionize supply chain management. Using Power BI, I analyzed performance metrics across orders, delivery timelines, regions, and customer segments to uncover **where delays happen and how they impact revenue**.
 
 ---
 
 ## 📊 Live Interactive Dashboard
 
-👉 [Click here to view the full dashboard](https://app.powerbi.com/groups/me/reports/cc762fc0-bbec-4c70-b213-3524121ac1d8/953933c5098e20d60538?experience=power-bi)  
-_This dashboard is best viewed on desktop._
+👉 [Click here to explore the dashboard](https://app.powerbi.com/groups/me/reports/cc762fc0-bbec-4c70-b213-3524121ac1d8/953933c5098e20d60538?experience=power-bi)  
+🖥️ *Best viewed on desktop – sign-in required.*
 
 ---
 
-## 🏁 Project Objective
+## 🎯 Project Objective
 
-This project aims to:
-- Analyze supply chain performance across regions and customer segments
-- Identify shipping delays and their financial impact
-- Optimize product categories and shipment modes
-- Drive decisions using visual and interactive KPIs
+This dashboard helps supply chain managers and analysts to:
 
----
-
-## 📂 Dataset Features
-
-| Column               | Description                                             |
-|----------------------|---------------------------------------------------------|
-| `Order ID`           | Unique identifier for each customer order              |
-| `Order Date`         | Date when the order was placed                          |
-| `Ship Mode`          | Shipping method used (Standard, Express, Same-Day)     |
-| `Customer Segment`   | Customer group (e.g., Consumer, Corporate)              |
-| `Region`             | Shipping destination                                    |
-| `Product Category`   | Product group (e.g., Technology, Furniture)             |
-| `Sales`              | Revenue generated per order                             |
-| `Profit`             | Net profit from the order                               |
-| `Shipping Cost`      | Expense incurred on shipping                            |
-| `Delivery Time`      | Number of days taken to deliver                         |
-
-📌 **Source**: Public dataset [You can download from this repository]
-
----
-
-## 🖼️ Dashboard Screenshots
-
-### 🏠 Homepage
-![Homepage](images/Homepage.png)
-
-### 📈 Performance Overview
-![Performance Overview](images/Performance%20Overview.png)
-
-### 🏭 Quality & Production
-![Quality & Production](images/Quality%26Production.png)
-
-### 🚛 Shipping Analysis
-![Shipping](images/Shipping.png)
+- 📌 Analyze performance by region, shipment mode, and product category  
+- ⏱️ Identify delivery delays and assess cost implications  
+- 🚀 Optimize fulfillment timelines and shipping strategies  
+- 📈 Empower data-driven decision-making with real-time KPIs
 
 ---
 
 ## 🔍 Business Questions Answered
 
-- What are the most delayed shipping modes?
-- Which regions yield the most profit?
-- How do delivery delays impact revenue?
-- Which customer segments are the most cost-effective?
-- What product categories contribute most to revenue?
+- 🚚 Which shipping modes have the longest delivery times?  
+- 💸 How do delays impact profit margins?  
+- 🌍 Which regions and segments drive the most revenue?  
+- 📦 What products are most cost-efficient?
 
 ---
 
-## 🧠 Key Insights
+## 📂 Dataset Summary
 
-✅ Express delivery ensures the fastest shipping but at a higher cost  
-✅ West and East regions consistently outperform others in profit and delivery speed  
-✅ Corporate clients are the most profitable customer segment  
-✅ Technology category shows the highest revenue-to-cost efficiency  
-✅ Delivery delays negatively impact repeat orders and profit margins
+| Feature             | Description                                              |
+|---------------------|----------------------------------------------------------|
+| `Order ID`          | Unique order identifier                                  |
+| `Order Date`        | When the order was placed                                |
+| `Ship Mode`         | Type of shipping (Standard, Express, Same-Day, etc.)     |
+| `Customer Segment`  | Consumer, Corporate, or Home Office                      |
+| `Region`            | Delivery destination region                              |
+| `Product Category`  | Category of the ordered product                          |
+| `Sales`             | Gross revenue from the order                             |
+| `Profit`            | Net profit from the transaction                          |
+| `Shipping Cost`     | Delivery expense                                         |
+| `Delivery Time`     | Number of days from order to delivery                    |
+
+📌 **Source**: Public dataset (included in repository)
+
+---
+
+## 🖼️ Dashboard Highlights
+
+| Homepage                             | Performance Overview                  |
+|-------------------------------------|---------------------------------------|
+| ![Homepage](images/Homepage.png)    | ![Performance](images/Performance%20Overview.png) |
+
+| Quality & Production                | Shipping Analysis                     |
+|-------------------------------------|----------------------------------------|
+| ![Quality](images/Quality&Production.png) | ![Shipping](images/Shipping.png)         |
+
+---
+
+## 💡 Insights Uncovered
+
+- ✅ **Express** deliveries are fastest, but costliest  
+- ✅ **West & East** regions are top in profit and fulfillment  
+- ✅ **Corporate** customers yield consistent high-value orders  
+- ✅ **Technology** products offer best cost-efficiency  
+- ✅ Long **delivery times reduce repeat orders**
 
 ---
 
 ## 🛠️ Tools & Technologies Used
 
-- **Power BI Desktop** – Dashboard & visualization
-- **DAX** – Metrics, calculated columns, dynamic KPIs
-- **Power Query** – Data transformation
-- **Excel/CSV** – Data handling and prep
+- **Power BI Desktop** – Data visualization  
+- **Power Query** – Data cleaning and transformation  
+- **DAX** – KPIs and calculated metrics  
+- **Excel/CSV** – Dataset structure and manipulation
 
 ---
 
-## 🧪 Challenges Faced
+## 🧪 Challenges Tackled
 
-- Cleaned inconsistent `Region` values using Power Query  
-- Handled null values in delivery and shipment time  
-- Designed layered KPIs to support drill-down filters by region and segment  
-- Optimized slicers to reduce dashboard load time
+- Standardized inconsistent region names in Power Query  
+- Handled missing delivery dates with conditional logic  
+- Built dynamic DAX measures for profitability & shipping trends  
+- Created optimized drill-downs with minimal performance lag
 
 ---
 
 ## 💬 Let’s Connect
 
-If you'd like to collaborate, ask questions about this project, or discuss opportunities, feel free to reach out!
+If you’d like to collaborate, have questions, or want to discuss analytics projects, feel free to reach out!
 
-- 📧 **Email**: [muskan.gulati3029@gmail.com](mailto:muskan.gulati3029@gmail.com)  
-- 💼 **LinkedIn**: [linkedin.com/in/muskan-gulati30](https://linkedin.com/in/muskan-gulati30)
+📧 [muskan.gulati3029@gmail.com](mailto:muskan.gulati3029@gmail.com)  
+💼 [linkedin.com/in/muskan-gulati30](https://linkedin.com/in/muskan-gulati30)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You are free to use or adapt it with attribution.
+
+---
+
+> 🔍 *“Good analytics answer questions. Great analytics inspire new ones.”*
