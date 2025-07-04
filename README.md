@@ -36,7 +36,7 @@ This project aims to:
 | `Shipping Cost`      | Expense incurred on shipping                            |
 | `Delivery Time`      | Number of days taken to deliver                         |
 
-📌 **Source**: Public dataset (add link if available)
+📌 **Source**: Public dataset [You can download from this repository]
 
 ---
 
